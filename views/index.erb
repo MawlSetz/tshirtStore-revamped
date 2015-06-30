@@ -1,0 +1,28 @@
+<html>
+
+<%= erb :header %>
+
+
+<ul class="tshirts">
+<% tshirts.each do |tshirt| %>
+	<li class="tshirts">
+		<!-- <div class="col-md-3 dish"> -->
+		<% if !tshirt.hidden %>
+			<a href = "/tshirts/<%= tshirt.id %>"> 
+				<img style="height:auto; width:250px; max-height:300px;" src="<%= tshirt.image_url %>"></img>
+				<br>
+			
+				<div style="text-align: center;">
+				<%= tshirt.style %><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><%= tshirt.quantity_available %> left
+				</div>
+			</a>
+		<% end %>
+	</li>
+<% end %>
+</ul>
+
+
+					
+<%= erb :page_footer %>
+	</body>
+</html>

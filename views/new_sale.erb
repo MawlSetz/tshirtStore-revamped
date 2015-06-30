@@ -1,0 +1,19 @@
+<!DOCTYPE>
+<%= erb :header %>
+<div class="content">
+  <%= tshirt.style %>
+  <%= tshirt.description %>  $<%= tshirt.price %> only <%= tshirt.quantity_available %> left ~! 
+
+  <form class="list" method="POST" action="/tshirts/<%= tshirt.id %>/newSale">
+    <input type="text" name="email" placeholder="your email" required><br/>
+    <input type="text" name="quantity" placeholder="quantity" required><br/>
+    <button class="buy-button">Buy!</button>
+  </form>
+
+</div>
+
+  <%= erb :page_footer %>
+
+</body>
+
+</html>

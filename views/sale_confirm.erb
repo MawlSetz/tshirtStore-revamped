@@ -1,0 +1,21 @@
+<html>
+<%= erb :header %>
+	<div style="padding-top:100px; padding-left:50px;"class="confirm">
+		<ul style="list-style-type: none;">
+			<h3 style="padding-bottom:100px;">Congratulations!</h3>
+
+			<li>You have successfully purchased:
+			</li>
+			<br>
+			<li style="padding-left:80px;">  <%= sale.quantity_purchased %>  <%= tshirt.style %> at the price of $<%= sale.quantity_purchased * tshirt.price %> 
+			</li>	
+		</ul>	
+
+	</div>
+<%= erb :page_footer %>
+
+	</div><br><br>
+	<small><a style="padding-left:80px;" href='/tshirts'>Continue Shopping</a>
+
+</body>
+</html>

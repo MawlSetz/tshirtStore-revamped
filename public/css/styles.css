@@ -1,0 +1,168 @@
+h1{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 4em;
+	padding-left: 1em;
+	margin: 0;
+	text-shadow: .06em .06em #ff7373;
+	display: inline;
+}
+h2{
+	font-size: 1em;
+	margin-left: 6em;
+	padding-bottom: 2em;
+	font-style: italic;
+	display: inline;
+}
+h3{
+	font-size: 1em;
+	margin-left: 6em;
+	padding-bottom: 2em;
+	padding-top: 3em;
+	font-style: italic;
+	display: inline;
+
+}
+header{
+
+	z-index: 999;
+	color: #00aaff;
+	background-image: url("http://healthfitnessrevolution.com/wp-content/uploads/2013/08/lemon-water-hfr.jpg");
+	background-position: 20% 50%;
+	background-width: 100%;
+	height: 8em;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	border-bottom: inset;
+	border-bottom-color: #E5E5E5;
+	border-top: ridge;
+	border-top-color: #E5E5E5;
+}
+.header{
+	z-index: 999;
+	color: #00aaff;
+	background-image: url("http://healthfitnessrevolution.com/wp-content/uploads/2013/08/lemon-water-hfr.jpg");
+	background-position: 20% 50%;
+	background-width: 100%;
+	height: 8em;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	border-bottom: inset;
+	border-bottom-color: #E5E5E5;
+	border-top: ridge;
+	border-top-color: #E5E5E5;
+
+}
+ul.navLinks{
+	list-style: none;
+	float: right;
+	padding-right: 30px;
+	font-size: 20px;
+}
+ul.navLinks li{
+	padding: 2em;
+	display: inline-block;
+}
+ul.navLinks a{
+	color:#08493d;
+	font-stle: bold
+	background-color:white;
+}
+
+a{
+	text-decoration: none;
+}
+admin_content{
+	text-align: left;
+	padding: 2em;
+}
+
+/*div.title{
+	background-color: #404040;
+	height: 150px;
+	top: 0;
+	left: 0;
+	position: fixed;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+
+}*/
+ul{
+	display: inline-block;
+	list-style: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+li.tshirts{
+	display: inline-block;
+	text-decoration: none;
+	padding:1em;
+}
+.content{
+	position:relative;
+	text-align: center;
+	padding-top: 4em;
+}
+.container-fluid{
+	padding-top: 200px;
+}
+
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  margin: 10px
+  
+
+}
+img.show_shirt{
+	height:35em; 
+	width:auto;
+	float:left;
+	padding-top: 2em;
+	padding-left:10em;
+}
+.shirt_info{
+	text-align: right;
+	font-size: 1.5em; 
+	float: right; 
+	margin-top:10%; 
+	padding-right:5em;
+	width: 30%
+}
+.shirt_info button{
+	border-style: none;
+	font-size: 1.5em;
+	color: #00aaff;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	padding: .3em
+}
+
+.shirt_info button:hover{
+	color: #e75f5d;
+}
+div.about{
+	padding:100px 100px 30px 100px;
+
+}
+
+
+footer{
+	/*top:95%;*/
+	width: 100%;
+	color: #00ccff;
+	position: fixed;
+	bottom: 1em;
+	height: 60px;
+	padding-top: 40px;
+
+}
