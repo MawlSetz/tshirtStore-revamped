@@ -3,7 +3,44 @@ require_relative '../models/sale'
 
 Tshirt.destroy_all
 
+Tshirt.create({
+	style: "Pocket Pal",
+	color: "bone",
+	quantity_available: 25,
+	price: 225.40,
+	description: "
+	• Unstructured leather bucket bag
+	• Side pocket
+	• Top drawstring that serves as handles and closure
+	• Interior zipper pocket
+	• Striped interior cotton lining
 
+	Standard domestic flat rate of $7.95 — free on orders of $75 or more. 
+
+	View Domestic Rates 
+
+	International Standard shipping for a $15 flat rate. 
+
+	View International Rates",
+	image_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/h/5/h5523f6f1f08a9.jpg",
+	hidden: false
+	})
+
+Tshirt.create({
+	style: "Sunday Best",
+	color: "nude/black",
+	quantity_available: 78,
+	price: 250.00,
+	description: "
+	Hand-crafted in downtown Vancouver by Erin Templeton, a cross-body color-blocked bag in premium vegetable-tanned leather. Features a double-gusset design with a mini center pocket and stud closure. 
+
+	•	Color block vegetable tanned back
+	•	Stud closure 
+	•	100% Leather 
+	•	Made in USA ",
+	image_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/460x590/e9607dc71bc010050ca2ae6f644b84c1/h/5/h5523f7dc26d8f.jpg",
+	hidden: false
+	})
 Tshirt.create({
 	style: "Arcimboldo",
 	color: "white",
