@@ -22,7 +22,11 @@ Tshirt.create({
 	International Standard shipping for a $15 flat rate. 
 
 	View International Rates",
-	image_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/h/5/h5523f6f1f08a9.jpg",
+	main_image_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/h/5/h5523f6f1f08a9.jpg",
+	img_one_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/460x590/e9607dc71bc010050ca2ae6f644b84c1/h/5/h5523f6f207e50.jpg" ,
+	img_two_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/460x590/e9607dc71bc010050ca2ae6f644b84c1/h/5/h5523f6f20b098.jpg",
+	img_three_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/460x590/e9607dc71bc010050ca2ae6f644b84c1/h/5/h5523f6f20fdb0.jpg" ,
+	img_four_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/460x590/e9607dc71bc010050ca2ae6f644b84c1/h/5/h5523f6f21877d.jpg",
 	hidden: false
 	})
 
@@ -38,7 +42,11 @@ Tshirt.create({
 	•	Stud closure 
 	•	100% Leather 
 	•	Made in USA ",
-	image_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/460x590/e9607dc71bc010050ca2ae6f644b84c1/h/5/h5523f7dc26d8f.jpg",
+	main_image_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/460x590/e9607dc71bc010050ca2ae6f644b84c1/h/5/h5523f7dc26d8f.jpg",
+	img_one_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/460x590/e9607dc71bc010050ca2ae6f644b84c1/h/5/h5523f7dc2bdf0.jpg" ,
+	img_two_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/460x590/e9607dc71bc010050ca2ae6f644b84c1/h/5/h5523f7dc2f274.jpg",
+	img_three_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/460x590/e9607dc71bc010050ca2ae6f644b84c1/h/5/h5523f6f20fdb0.jpg" ,
+	img_four_url: "http://cdn.needsupply.com/media/catalog/product/cache/1/image/460x590/e9607dc71bc010050ca2ae6f644b84c1/h/5/h5523f6f21877d.jpg",
 	hidden: false
 	})
 Tshirt.create({
